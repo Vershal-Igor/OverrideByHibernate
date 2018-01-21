@@ -1,0 +1,193 @@
+2017-11-12 00:13:18 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-11-12 00:13:18 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2017-11-12 00:13:18 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2017-11-12 00:13:18 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-12 00:13:20 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-11-12 00:13:20 WARN  dialect.H2Dialect:102 - HHH000431: Unable to determine H2 database version, certain features may not work
+2017-11-12 00:13:22 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-12 00:13:24 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-11-12 00:13:24 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-11-12 00:13:24 WARN  dialect.H2Dialect:102 - HHH000431: Unable to determine H2 database version, certain features may not work
+2017-11-12 00:13:24 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-12 00:13:25 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-11-12 00:13:25 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-11-12 00:13:25 WARN  dialect.H2Dialect:102 - HHH000431: Unable to determine H2 database version, certain features may not work
+2017-11-12 00:13:25 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-12 00:13:26 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-11-12 00:13:26 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-11-12 00:13:26 WARN  dialect.H2Dialect:102 - HHH000431: Unable to determine H2 database version, certain features may not work
+2017-11-12 00:13:26 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-12 00:13:46 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-11-12 00:13:47 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2017-11-12 00:13:47 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2017-11-12 00:13:47 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-12 00:13:48 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-11-12 00:13:48 WARN  dialect.H2Dialect:102 - HHH000431: Unable to determine H2 database version, certain features may not work
+2017-11-12 00:13:50 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-12 00:13:52 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-11-12 00:13:52 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-11-12 00:13:52 WARN  dialect.H2Dialect:102 - HHH000431: Unable to determine H2 database version, certain features may not work
+2017-11-12 00:13:52 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-12 00:13:53 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-11-12 00:13:54 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-11-12 00:13:54 WARN  dialect.H2Dialect:102 - HHH000431: Unable to determine H2 database version, certain features may not work
+2017-11-12 00:13:54 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-12 00:13:55 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-11-12 00:13:55 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-11-12 00:13:55 WARN  dialect.H2Dialect:102 - HHH000431: Unable to determine H2 database version, certain features may not work
+2017-11-12 00:13:55 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-12 18:32:49 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-11-12 18:32:49 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2017-11-12 18:32:49 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2017-11-12 18:32:50 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-12 18:32:51 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-11-12 18:32:51 WARN  dialect.H2Dialect:102 - HHH000431: Unable to determine H2 database version, certain features may not work
+2017-11-12 18:32:53 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-12 18:33:15 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-11-12 18:33:15 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2017-11-12 18:33:15 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2017-11-12 18:33:15 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-12 18:33:16 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-11-12 18:33:16 WARN  dialect.H2Dialect:102 - HHH000431: Unable to determine H2 database version, certain features may not work
+2017-11-12 18:34:12 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-11-12 18:34:12 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2017-11-12 18:34:12 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2017-11-12 18:34:13 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-12 18:34:14 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-11-12 18:34:14 WARN  dialect.H2Dialect:102 - HHH000431: Unable to determine H2 database version, certain features may not work
+2017-11-12 18:34:15 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-12 18:34:32 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-11-12 18:34:32 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2017-11-12 18:34:32 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2017-11-12 18:34:32 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-12 18:34:33 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-11-12 18:34:33 WARN  dialect.H2Dialect:102 - HHH000431: Unable to determine H2 database version, certain features may not work
+2017-11-12 18:35:13 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-11-12 18:35:14 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2017-11-12 18:35:14 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2017-11-12 18:35:14 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-12 18:35:15 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-11-12 18:35:15 WARN  dialect.H2Dialect:102 - HHH000431: Unable to determine H2 database version, certain features may not work
+2017-11-12 18:35:35 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-11-12 18:35:36 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2017-11-12 18:35:36 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2017-11-12 18:35:36 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-12 18:35:37 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-11-12 18:35:37 WARN  dialect.H2Dialect:102 - HHH000431: Unable to determine H2 database version, certain features may not work
+2017-11-12 18:36:56 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-11-12 18:36:56 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2017-11-12 18:36:56 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2017-11-12 18:36:57 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-12 18:36:58 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-11-12 18:36:58 WARN  dialect.H2Dialect:102 - HHH000431: Unable to determine H2 database version, certain features may not work
+2017-11-12 19:21:45 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-11-12 19:21:46 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2017-11-12 19:21:46 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2017-11-12 19:21:46 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-12 19:21:46 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-11-12 19:21:46 WARN  dialect.H2Dialect:102 - HHH000431: Unable to determine H2 database version, certain features may not work
+2017-11-12 19:21:48 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-12 19:21:49 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-11-12 19:21:49 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-11-12 19:21:49 WARN  dialect.H2Dialect:102 - HHH000431: Unable to determine H2 database version, certain features may not work
+2017-11-12 19:21:50 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-12 19:21:51 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-11-12 19:21:51 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-11-12 19:21:51 WARN  dialect.H2Dialect:102 - HHH000431: Unable to determine H2 database version, certain features may not work
+2017-11-12 19:21:51 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-12 19:21:52 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-11-12 19:21:52 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-11-12 19:21:52 WARN  dialect.H2Dialect:102 - HHH000431: Unable to determine H2 database version, certain features may not work
+2017-11-12 19:21:53 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-12 19:23:14 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-11-12 19:23:15 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2017-11-12 19:23:15 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2017-11-12 19:23:15 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-12 19:23:15 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-11-12 19:23:15 WARN  dialect.H2Dialect:102 - HHH000431: Unable to determine H2 database version, certain features may not work
+2017-11-12 19:23:17 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-12 19:23:18 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-11-12 19:23:18 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-11-12 19:23:18 WARN  dialect.H2Dialect:102 - HHH000431: Unable to determine H2 database version, certain features may not work
+2017-11-12 19:23:18 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-12 19:23:19 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-11-12 19:23:19 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-11-12 19:23:19 WARN  dialect.H2Dialect:102 - HHH000431: Unable to determine H2 database version, certain features may not work
+2017-11-12 19:23:20 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-12 19:23:20 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-11-12 19:23:21 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-11-12 19:23:21 WARN  dialect.H2Dialect:102 - HHH000431: Unable to determine H2 database version, certain features may not work
+2017-11-12 19:23:21 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-12 19:24:32 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-11-12 19:24:33 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2017-11-12 19:24:33 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2017-11-12 19:24:33 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-12 19:24:33 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-11-12 19:24:33 WARN  dialect.H2Dialect:102 - HHH000431: Unable to determine H2 database version, certain features may not work
+2017-11-12 19:26:41 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-11-12 19:26:41 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2017-11-12 19:26:41 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2017-11-12 19:26:41 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-12 19:26:42 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-11-12 19:26:44 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-11-12 19:26:44 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-11-12 19:26:44 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-11-12 19:26:45 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-11-12 19:26:45 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-11-12 19:26:45 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect

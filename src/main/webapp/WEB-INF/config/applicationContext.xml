@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:jpa="http://www.springframework.org/schema/data/jpa"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd http://www.springframework.org/schema/data/jpa http://www.springframework.org/schema/data/jpa/spring-jpa.xsd">
+
+
+    <context:component-scan base-package="com.epam.hostel"/>
+    <!--<jpa:repositories base-package="com.epam.hostel" />-->
+
+    <context:property-placeholder location="classpath:db/db.properties"/>
+
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+        <property name="driverClassName" value="${jdbc.driverClassName}"/>
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
+
+    <bean id="sessionFactory"
+          class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="packagesToScan" value="com.epam.hostel"/>
+        <property name="hibernateProperties">
+            <props>
+                <prop key="hibernate.show_sql">${hibernate.show_sql}</prop>
+                <prop key="c3p0.min_size">${c3p0.min_size}</prop>
+                <prop key="c3p0.max_size">${c3p0.max_size}</prop>
+                <prop key="c3p0.timeout">${c3p0.timeout}</prop>
+                <prop key="c3p0.max_statements">${c3p0.max_statements}</prop>
+                <prop key="c3p0.idle_test_period">${c3p0.idle_test_period}</prop>
+            </props>
+        </property>
+    </bean>
+
+     <bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+        <property name="dataSource" ref="dataSource" />
+        <property name="jpaVendorAdapter">
+            <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter" />
+        </property>
+        <property name="packagesToScan" value="com.epam.hostel"/>
+        <property name="jpaProperties">
+            <props>
+                <prop key="hibernate.dialect">
+                    org.hibernate.dialect.H2Dialect
+                </prop>
+                <prop key="hibernate.show_sql">${hibernate.show_sql}</prop>
+                <prop key="c3p0.min_size">${c3p0.min_size}</prop>
+                <prop key="c3p0.max_size">${c3p0.max_size}</prop>
+                <prop key="c3p0.timeout">${c3p0.timeout}</prop>
+                <prop key="c3p0.max_statements">${c3p0.max_statements}</prop>
+                <prop key="c3p0.idle_test_period">${c3p0.idle_test_period}</prop>
+            </props>
+        </property>
+    </bean>
+
+    <bean id="transactionManager"
+          class="org.springframework.orm.hibernate5.HibernateTransactionManager">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    <tx:annotation-driven transaction-manager="transactionManager" proxy-target-class="true"/>
+
+    <bean id="userDAOImpl" class="com.epam.hostel.dao.impl.UserDAOImpl">
+        <constructor-arg name="dataSource" ref="dataSource"/>
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <bean id="roomDAOImpl" class="com.epam.hostel.dao.impl.RoomDAOImpl">
+        <constructor-arg name="dataSource" ref="dataSource"/>
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <bean id="orderDAOImpl" class="com.epam.hostel.dao.impl.OrderDAOImpl">
+        <constructor-arg name="dataSource" ref="dataSource"/>
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <bean id="userService" class="com.epam.hostel.service.impl.UserServiceImpl">
+        <property name="userDAOImpl" ref="userDAOImpl"/>
+    </bean>
+
+    <bean id="roomService" class="com.epam.hostel.service.impl.RoomServiceImpl">
+        <property name="roomDAOImpl" ref="roomDAOImpl"/>
+    </bean>
+
+    <bean id="orderService" class="com.epam.hostel.service.impl.OrderServiceImpl">
+        <property name="orderDAOImpl" ref="orderDAOImpl"/>
+    </bean>
+
+    <!--<jpa:repositories base-package="com.epam.hostel" entity-manager-factory-ref="entityManagerFactory"
+                      transaction-manager-ref="transactionManager"/>-->
+
+</beans>
