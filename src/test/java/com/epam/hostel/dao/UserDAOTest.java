@@ -1,33 +1,34 @@
-/*
 package com.epam.hostel.dao;
 
-*/
-/*import com.epam.hostel.config.DataConfig;*//*
+import com.epam.hostel.config.DataConfig;
 
 import org.apache.log4j.Logger;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.context.support.GenericApplicationContext;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.TestExecutionListeners;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import org.springframework.test.context.support.AnnotationConfigContextLoader;
 import org.springframework.test.context.support.DependencyInjectionTestExecutionListener;
 import org.springframework.test.context.support.DirtiesContextTestExecutionListener;
 import org.springframework.test.context.transaction.TransactionalTestExecutionListener;
+import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
 
 //@RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations = {"classpath:applicationContext.xml"})
+/*@ContextConfiguration(locations = {"classpath:applicationContext.xml"})*/
 //@ComponentScan("com.epam.hostel")
-*/
-/*@ContextConfiguration(loader = AnnotationConfigContextLoader.class, classes = {DataConfig.class})*//*
 
-@TestExecutionListeners({DependencyInjectionTestExecutionListener.class, DirtiesContextTestExecutionListener.class,
-        TransactionalTestExecutionListener.class})
+
 @RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration(loader = AnnotationConfigContextLoader.class, classes = {DataConfig.class})
 public class UserDAOTest {
-    */
-/*ApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
-    UserDAO userCrud = (UserDAO) applicationContext.getBean(UserDAO.class);*//*
+/*ApplicationContext applicationContext = new AnnotationConfigApplicationContext(DataConfig.class);
+    UserCrud userCrud = (UserCrud) applicationContext.getBean(UserCrud.class);*/
 
     private static Logger logger = Logger.getLogger(UserDAOTest.class);
 
@@ -55,4 +56,4 @@ public class UserDAOTest {
     }
 
 
-}*/
+}

@@ -1,4 +1,3 @@
-/*
 package com.epam.hostel.config;
 
 
@@ -20,7 +19,7 @@ import java.util.Properties;
 
 @Configuration
 @EnableTransactionManagement
-@ComponentScan("com.epam.hostel")
+/*@ComponentScan("com.epam.hostel")*/
 @PropertySource("classpath:db/db.properties")
 @EnableJpaRepositories("com.epam.hostel")
 public class DataConfig {
@@ -79,4 +78,3 @@ public class DataConfig {
     }
 
 }
-*/

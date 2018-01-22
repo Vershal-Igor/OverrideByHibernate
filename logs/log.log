@@ -1,107 +1,85 @@
-2018-01-21 21:46:01 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+2018-01-22 19:03:53 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2018-01-21 21:46:01 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
-2018-01-21 21:46:01 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
-2018-01-21 21:46:02 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-2018-01-21 21:46:05 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2018-01-21 21:46:08 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+2018-01-22 19:03:53 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-22 19:03:53 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-22 19:03:53 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-22 19:03:54 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-22 19:04:53 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2018-01-21 21:46:08 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2018-01-21 21:46:08 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+2018-01-22 19:04:53 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-22 19:04:53 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-22 19:04:53 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-22 19:04:54 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-22 19:04:56 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2018-01-21 21:46:08 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2018-01-21 21:46:09 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+2018-01-22 19:04:56 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-22 19:04:57 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2018-01-21 21:46:09 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2018-01-21 21:50:49 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+2018-01-22 19:04:57 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-22 19:04:57 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2018-01-21 21:50:49 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
-2018-01-21 21:50:49 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
-2018-01-21 21:50:49 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-2018-01-21 21:50:50 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2018-01-21 21:50:52 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+2018-01-22 19:04:57 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-22 19:07:09 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2018-01-21 21:50:52 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2018-01-21 21:50:53 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+2018-01-22 19:07:10 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-22 19:07:10 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-22 19:07:10 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-22 19:07:11 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-22 19:11:25 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2018-01-21 21:50:53 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2018-01-21 21:50:53 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+2018-01-22 19:11:25 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-22 19:11:25 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-22 19:11:25 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-22 19:11:26 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-22 19:11:41 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2018-01-21 21:50:54 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2018-01-21 21:52:06 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+2018-01-22 19:11:41 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-22 19:11:41 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-22 19:11:41 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-22 19:11:42 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-22 19:11:44 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2018-01-21 21:52:06 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
-2018-01-21 21:52:06 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
-2018-01-21 21:52:06 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-2018-01-21 21:52:07 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2018-01-21 21:57:28 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+2018-01-22 19:11:44 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-22 19:11:44 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2018-01-21 21:57:28 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
-2018-01-21 21:57:28 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
-2018-01-21 21:57:28 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-2018-01-21 21:57:29 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2018-01-21 21:57:31 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+2018-01-22 19:11:44 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-22 19:11:45 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2018-01-21 21:57:31 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2018-01-21 21:57:31 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+2018-01-22 19:11:45 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-22 19:20:37 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2018-01-21 21:57:32 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2018-01-21 21:57:32 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+2018-01-22 19:20:37 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-22 19:20:37 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-22 19:20:38 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-22 19:20:38 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-22 19:20:40 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2018-01-21 21:57:32 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2018-01-21 21:57:43 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+2018-01-22 19:20:40 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-22 19:20:40 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2018-01-21 21:57:44 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
-2018-01-21 21:57:44 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
-2018-01-21 21:57:44 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-2018-01-21 21:57:45 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2018-01-21 22:01:16 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+2018-01-22 19:20:40 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-22 19:20:41 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2018-01-21 22:01:16 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
-2018-01-21 22:01:16 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
-2018-01-21 22:01:16 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-2018-01-21 22:01:17 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2018-01-21 22:01:17 WARN  dialect.H2Dialect:102 - HHH000431: Unable to determine H2 database version, certain features may not work
-2018-01-21 22:01:18 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2018-01-21 22:05:04 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+2018-01-22 19:20:41 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-22 19:21:32 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2018-01-21 22:05:04 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
-2018-01-21 22:05:04 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
-2018-01-21 22:05:04 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-2018-01-21 22:05:05 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2018-01-21 22:05:05 WARN  dialect.H2Dialect:102 - HHH000431: Unable to determine H2 database version, certain features may not work
-2018-01-21 22:05:07 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2018-01-21 22:10:04 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-2018-01-21 22:10:05 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
-2018-01-21 22:10:05 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
-2018-01-21 22:10:05 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-2018-01-21 22:10:05 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2018-01-21 22:10:05 WARN  dialect.H2Dialect:102 - HHH000431: Unable to determine H2 database version, certain features may not work
-2018-01-21 22:10:06 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2018-01-21 22:14:13 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-2018-01-21 22:14:13 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
-2018-01-21 22:14:13 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
-2018-01-21 22:14:13 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-2018-01-21 22:14:14 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2018-01-21 22:14:14 WARN  dialect.H2Dialect:102 - HHH000431: Unable to determine H2 database version, certain features may not work
-2018-01-21 22:14:15 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-01-22 19:21:32 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-22 19:21:32 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-22 19:21:32 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-22 19:21:33 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
