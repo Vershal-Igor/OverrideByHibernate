@@ -1,6 +1,7 @@
 package com.epam.hostel.service.impl;
 
 
+import com.epam.hostel.dao.UserCrud;
 import com.epam.hostel.dao.impl.UserDAOImpl;
 import com.epam.hostel.dao.exception.DAOException;
 
@@ -13,7 +14,12 @@ import com.epam.hostel.service.validator.IUserValidator;
 import com.epam.hostel.service.validator.impl.UserValidator;
 import org.apache.log4j.Logger;
 import org.apache.commons.codec.digest.DigestUtils;
+import org.hibernate.ObjectNotFoundException;
+import org.hibernate.exception.ConstraintViolationException;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DuplicateKeyException;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 //вроде есть и import org.springframework.util.DigestUtils;
 // но не хочет подключаться md5Hex
 
@@ -26,6 +32,8 @@ import java.util.List;
  * @author Vershal
  * @version 1.0
  */
+@Transactional(readOnly = true, propagation = Propagation.REQUIRED, rollbackFor = {ObjectNotFoundException.class,
+        ConstraintViolationException.class})
 public class UserServiceImpl implements IUserService {
     public static Logger logger = Logger.getLogger(UserServiceImpl.class);
 
@@ -38,6 +46,8 @@ public class UserServiceImpl implements IUserService {
     private IUserValidator userValidator = UserValidator.getInstance();
 
     private static final int ZERO_RECORDS_COUNT = 0;
+    @Autowired
+    private UserCrud userCrud;
 
     /**
      * Method call {@code UserDAOImpl}to return
@@ -47,13 +57,25 @@ public class UserServiceImpl implements IUserService {
     public List<User> findAll() throws ServiceException {
         List<User> users = null;
         try {
+            users = (List<User>) userCrud.findAll();
+        } catch (Exception e) {
+            logger.error("error while find All users", e);
+            throw new ServiceException("error while find All users", e);
+        }
+        return users;
+    }
+    /*@Override
+    public List<User> findAll() throws ServiceException {
+        List<User> users = null;
+        try {
             users = userDAOImpl.findAll();
         } catch (DAOException e) {
             logger.error("error while find All users", e);
             throw new ServiceException("error while find All users", e);
         }
         return users;
-    }
+    }*/
+
 
     /**
      * Method call {@code UserDAOImpl}to return all information
@@ -116,7 +138,7 @@ public class UserServiceImpl implements IUserService {
                 if (recordsCount != ZERO_RECORDS_COUNT) {
                     throw new DuplicateEntityException("there is a record with such data");
                 } else {*/
-                    return userDAOImpl.add(user);
+                return userDAOImpl.add(user);
                 /*}*/
             } catch (DAOException e) {
                 logger.error("error while sign up user", e);

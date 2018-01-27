@@ -23,6 +23,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.sql.*;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.sql.DataSource;
@@ -78,9 +79,32 @@ public class UserDAOImpl implements IUserDAO {
     @Override
     public List<User> findAll() throws DAOException {
         Session session = sessionFactory.getCurrentSession();
-        List<User> users = session.createQuery("from User u").list();
-        return users;
+        return (List<User>) session.createQuery("from User u").list();
     }
+    /*@Override
+    public List<User> findAll() throws DAOException {
+
+        return jdbcTemplate.execute(SELECT_ALL_USERS, (PreparedStatementCallback<List<User>>) ps -> {
+            List<User> users = new ArrayList<>();
+            ResultSet resultSet = null;
+            resultSet = ps.executeQuery();
+            while (resultSet.next()) {
+                User user = new User();
+
+                user.setId(resultSet.getLong(1));
+                user.setName(resultSet.getString(2));
+                user.setSurname(resultSet.getString(3));
+                user.setLogin(resultSet.getString(4));
+                user.setPassword(resultSet.getString(5));
+                user.setUserStatus(UserStatus.valueOf(resultSet.getInt(6)));
+
+
+                users.add(user);
+            }
+
+            return users;
+        });
+    }*/
 
     /**
      * Retrieves user by definite user id

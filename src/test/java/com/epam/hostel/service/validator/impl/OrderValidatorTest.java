@@ -13,7 +13,7 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations = {"classpath*:dispatcher-servlet.xml", "classpath*:applicationContext.xml"})
+@ContextConfiguration(locations = {"classpath*:applicationContext.xml"})
 public class OrderValidatorTest {
     private static final Logger logger = Logger.getLogger(OrderValidatorTest.class);
     private static Order orderInvalid;

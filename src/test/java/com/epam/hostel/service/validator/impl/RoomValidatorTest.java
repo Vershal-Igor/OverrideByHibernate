@@ -10,7 +10,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations = {"classpath*:dispatcher-servlet.xml", "classpath*:applicationContext.xml"})
+@ContextConfiguration(locations = {"classpath*:applicationContext.xml"})
 public class RoomValidatorTest {
     private static final Logger logger = Logger.getLogger(RoomValidatorTest.class);
 

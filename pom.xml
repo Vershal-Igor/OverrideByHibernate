@@ -30,6 +30,7 @@
         <mysql.version>5.1.41</mysql.version>
         <!--log4j-->
         <log4j.version>1.2.17</log4j.version>
+        <org.slf4j.version>1.7.5</org.slf4j.version>
         <spring-framework-version>4.3.12.RELEASE</spring-framework-version>
         <hibernate-version>5.2.11.Final</hibernate-version>
         <c3po-version>4.3.10.Final</c3po-version>
@@ -83,12 +84,6 @@
             <version>${hibernate-version}</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-entitymanager</artifactId>
-            <version>4.3.10.Final</version>
-        </dependency>
-
         <!-- Hibernate c3p0 connection pool -->
         <dependency>
             <groupId>org.hibernate</groupId>
@@ -127,7 +122,7 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
-            <version>1.7.5</version>
+            <version>${org.slf4j.version}</version>
         </dependency>
 
         <!-- mysql connector -->

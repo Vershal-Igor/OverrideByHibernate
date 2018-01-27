@@ -1,11 +1,10 @@
 package com.epam.hostel.dao;
 
-import com.epam.hostel.config.DataConfig;
-
 import org.apache.log4j.Logger;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -20,20 +19,23 @@ import org.springframework.test.context.transaction.TransactionalTestExecutionLi
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
 
 //@RunWith(SpringJUnit4ClassRunner.class)
-/*@ContextConfiguration(locations = {"classpath:applicationContext.xml"})*/
+@ContextConfiguration(locations = {"classpath:applicationContext.xml"})
+
 //@ComponentScan("com.epam.hostel")
 
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(loader = AnnotationConfigContextLoader.class, classes = {DataConfig.class})
+/*@ContextConfiguration(loader = AnnotationConfigContextLoader.class, classes = {DataConfig.class})*/
+
 public class UserDAOTest {
 /*ApplicationContext applicationContext = new AnnotationConfigApplicationContext(DataConfig.class);
     UserCrud userCrud = (UserCrud) applicationContext.getBean(UserCrud.class);*/
 
+
     private static Logger logger = Logger.getLogger(UserDAOTest.class);
 
     @Autowired
-    UserCrud userCrud;
+    private UserCrud userCrud;
 
     @Test
     public void findAll() throws Exception {
@@ -45,7 +47,7 @@ public class UserDAOTest {
         logger.info(userCrud.findOne((long) 1));
     }
 
-    @Test
+    /*@Test
     public void findByName() throws Exception {
         logger.info(userCrud.findByName("Игорь"));
     }
@@ -53,7 +55,7 @@ public class UserDAOTest {
     @Test
     public void countAllByBanned() throws Exception {
         logger.info(userCrud.countAllByBanned());
-    }
+    }*/
 
 
 }

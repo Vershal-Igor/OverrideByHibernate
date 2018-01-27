@@ -1,85 +1,449 @@
-2018-01-22 19:03:53 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+2018-01-27 21:28:10 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2018-01-22 19:03:53 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
-2018-01-22 19:03:53 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
-2018-01-22 19:03:53 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-2018-01-22 19:03:54 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2018-01-22 19:04:53 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+2018-01-27 21:28:11 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 21:28:11 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 21:28:11 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 21:28:11 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 21:28:12 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-01-27 21:29:31 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2018-01-22 19:04:53 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
-2018-01-22 19:04:53 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
-2018-01-22 19:04:53 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-2018-01-22 19:04:54 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2018-01-22 19:04:56 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+2018-01-27 21:29:31 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 21:29:31 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 21:29:31 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 21:29:32 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 21:29:33 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-01-27 21:31:59 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2018-01-22 19:04:56 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2018-01-22 19:04:57 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+2018-01-27 21:31:59 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 21:31:59 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 21:32:00 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 21:32:00 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 21:32:01 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-01-27 21:35:24 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2018-01-22 19:04:57 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2018-01-22 19:04:57 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+2018-01-27 21:35:24 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 21:35:24 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 21:35:24 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 21:35:25 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 21:35:26 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-01-27 21:35:53 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2018-01-22 19:04:57 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2018-01-22 19:07:09 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+2018-01-27 21:35:53 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 21:35:53 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 21:35:53 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 21:35:54 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 21:35:55 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-01-27 21:36:33 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2018-01-22 19:07:10 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
-2018-01-22 19:07:10 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
-2018-01-22 19:07:10 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-2018-01-22 19:07:11 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2018-01-22 19:11:25 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+2018-01-27 21:36:34 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 21:36:34 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 21:36:34 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 21:36:35 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 21:36:36 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-01-27 21:38:05 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2018-01-22 19:11:25 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
-2018-01-22 19:11:25 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
-2018-01-22 19:11:25 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-2018-01-22 19:11:26 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2018-01-22 19:11:41 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+2018-01-27 21:38:05 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 21:38:05 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 21:38:05 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 21:38:06 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 21:38:07 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-01-27 21:39:03 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2018-01-22 19:11:41 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
-2018-01-22 19:11:41 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
-2018-01-22 19:11:41 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-2018-01-22 19:11:42 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2018-01-22 19:11:44 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+2018-01-27 21:39:03 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 21:39:03 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 21:39:03 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 21:39:04 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 21:39:05 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-01-27 21:43:05 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2018-01-22 19:11:44 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2018-01-22 19:11:44 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+2018-01-27 21:43:05 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 21:43:05 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 21:43:05 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 21:43:06 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 21:43:07 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-01-27 21:47:14 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2018-01-22 19:11:44 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2018-01-22 19:11:45 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+2018-01-27 21:47:14 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 21:47:14 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 21:47:14 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 21:47:15 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 21:47:16 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-01-27 21:55:18 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2018-01-22 19:11:45 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2018-01-22 19:20:37 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+2018-01-27 21:55:18 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 21:55:18 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 21:55:18 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 21:55:19 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 21:55:20 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-01-27 21:56:06 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2018-01-22 19:20:37 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
-2018-01-22 19:20:37 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
-2018-01-22 19:20:38 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-2018-01-22 19:20:38 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2018-01-22 19:20:40 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+2018-01-27 21:56:06 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 21:56:06 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 21:56:06 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 21:56:07 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 21:56:08 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-01-27 21:56:09 INFO  internal.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-01-27 21:56:09 INFO  dao.UserDAOTest:41 - org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.epam.hostel.model.user.User.ordersByUId, could not initialize proxy - no Session
+2018-01-27 21:56:57 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2018-01-22 19:20:40 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2018-01-22 19:20:40 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+2018-01-27 21:56:57 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 21:56:57 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 21:56:57 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 21:56:58 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 21:56:59 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-01-27 21:57:00 INFO  internal.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-01-27 21:57:01 INFO  dao.UserDAOTest:41 - org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.epam.hostel.model.user.User.ordersByUId, could not initialize proxy - no Session
+2018-01-27 21:57:01 INFO  dao.UserDAOTest:46 - org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.epam.hostel.model.user.User.ordersByUId, could not initialize proxy - no Session
+2018-01-27 21:58:52 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2018-01-22 19:20:40 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2018-01-22 19:20:41 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+2018-01-27 21:58:52 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 21:58:52 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 21:58:53 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 21:58:53 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 21:58:54 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-01-27 21:58:55 INFO  internal.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-01-27 21:58:55 INFO  dao.UserDAOTest:41 - org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.epam.hostel.model.user.User.ordersByUId, could not initialize proxy - no Session
+2018-01-27 22:02:42 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2018-01-22 19:20:41 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2018-01-22 19:21:32 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+2018-01-27 22:02:43 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 22:02:43 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 22:02:43 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 22:02:44 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:02:45 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-01-27 22:02:46 INFO  internal.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-01-27 22:02:46 INFO  dao.UserDAOTest:41 - org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.epam.hostel.model.user.User.ordersByUId, could not initialize proxy - no Session
+2018-01-27 22:05:25 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2018-01-22 19:21:32 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
-2018-01-22 19:21:32 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
-2018-01-22 19:21:32 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-2018-01-22 19:21:33 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:05:26 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 22:05:26 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 22:05:26 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 22:05:26 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:05:27 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:05:28 INFO  internal.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-01-27 22:05:28 INFO  dao.UserDAOTest:41 - org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.epam.hostel.model.user.User.ordersByUId, could not initialize proxy - no Session
+2018-01-27 22:06:47 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-01-27 22:06:48 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 22:06:48 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 22:06:48 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 22:06:48 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:06:49 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:06:50 INFO  internal.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-01-27 22:06:50 INFO  dao.UserDAOTest:41 - org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.epam.hostel.model.user.User.ordersByUId, could not initialize proxy - no Session
+2018-01-27 22:08:33 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-01-27 22:08:34 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 22:08:34 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 22:08:34 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 22:08:34 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:08:36 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:08:36 INFO  internal.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-01-27 22:08:36 WARN  spi.SqlExceptionHelper:129 - SQL Error: 1064, SQLState: 42000
+2018-01-27 22:08:36 ERROR spi.SqlExceptionHelper:131 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Order ordersbyui0_ inner join Room room1_ on ordersbyui0_.Room_id=room1_.r_id wh' at line 1
+2018-01-27 22:09:28 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-01-27 22:09:28 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 22:09:28 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 22:09:28 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 22:09:29 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:09:30 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:09:31 INFO  internal.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-01-27 22:09:32 WARN  spi.SqlExceptionHelper:129 - SQL Error: 1064, SQLState: 42000
+2018-01-27 22:09:32 ERROR spi.SqlExceptionHelper:131 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Order ordersbyui0_ inner join Room room1_ on ordersbyui0_.Room_id=room1_.r_id wh' at line 1
+2018-01-27 22:09:58 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-01-27 22:09:59 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 22:09:59 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 22:09:59 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 22:10:00 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:10:01 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:10:02 INFO  internal.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-01-27 22:10:02 INFO  dao.UserDAOTest:41 - org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.epam.hostel.model.user.User.ordersByUId, could not initialize proxy - no Session
+2018-01-27 22:10:59 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-01-27 22:11:00 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 22:11:00 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 22:11:00 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 22:11:00 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:11:01 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:11:02 INFO  internal.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-01-27 22:11:03 INFO  dao.UserDAOTest:41 - org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.epam.hostel.model.user.User.ordersByUId, could not initialize proxy - no Session
+2018-01-27 22:11:34 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-01-27 22:11:34 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 22:11:34 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 22:11:34 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 22:11:36 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:11:37 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:11:38 INFO  internal.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-01-27 22:11:39 INFO  dao.UserDAOTest:41 - [User{id=1, role=CLIENT, name='Админ', surname='Админ', login='админ', password='e00cf25ad42683b3df678c61f42c6bda', userStatus=ADMITTED, ordersByUId=null}, User{id=3, role=ADMIN, name='Андрей', surname='Серов', login='серов_андрей', password='6119a0681a1627c0344fffea2da72a75', userStatus=ADMITTED, ordersByUId=null}, User{id=4, role=ADMIN, name='Виктор', surname='Соболев', login='соболев_витя', password='cd16acecf70af3e3911c833713207305', userStatus=ADMITTED, ordersByUId=null}, User{id=5, role=ADMIN, name='Дмитрий', surname='Аверин', login='дима_авер', password='3cceceab3b3b6f41884744765dd3be79', userStatus=ADMITTED, ordersByUId=null}, User{id=6, role=ADMIN, name='Ольга', surname='Токарева', login='оля_ток', password='7c00f306692e276bc35482e89175b4b1', userStatus=BANNED, ordersByUId=null}, User{id=7, role=ADMIN, name='Петр', surname='Демидов', login='петя_демид', password='89801244ff2207d89abc298f3993806b', userStatus=ADMITTED, ordersByUId=null}, User{id=8, role=ADMIN, name='Екатерина', surname='Власова', login='катя_влас', password='f4db29ab21127d21205b59795b6c5a9e', userStatus=ADMITTED, ordersByUId=null}, User{id=9, role=ADMIN, name='Игорь', surname='Вершаль', login='игорь', password='15e866420638783a2de5950c3de191ba', userStatus=ADMITTED, ordersByUId=null}]
+2018-01-27 22:14:04 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-01-27 22:14:04 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 22:14:04 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 22:14:04 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 22:14:05 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:14:06 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:14:06 INFO  internal.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-01-27 22:14:07 WARN  spi.SqlExceptionHelper:129 - SQL Error: 1064, SQLState: 42000
+2018-01-27 22:14:07 ERROR spi.SqlExceptionHelper:131 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Order ordersbyui0_ inner join Room room1_ on ordersbyui0_.Room_id=room1_.r_id wh' at line 1
+2018-01-27 22:14:07 INFO  dao.UserDAOTest:41 - org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-01-27 22:14:42 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-01-27 22:14:42 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 22:14:42 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 22:14:42 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 22:14:43 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:14:44 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:14:45 INFO  internal.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-01-27 22:14:45 INFO  dao.UserDAOTest:41 - org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.epam.hostel.model.user.User.ordersByUId, could not initialize proxy - no Session
+2018-01-27 22:15:07 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-01-27 22:15:07 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 22:15:07 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 22:15:07 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 22:15:08 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:15:09 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:15:10 INFO  internal.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-01-27 22:15:10 WARN  spi.SqlExceptionHelper:129 - SQL Error: 1064, SQLState: 42000
+2018-01-27 22:15:10 ERROR spi.SqlExceptionHelper:131 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Order ordersbyui0_ inner join Room room1_ on ordersbyui0_.Room_id=room1_.r_id wh' at line 1
+2018-01-27 22:15:10 INFO  dao.UserDAOTest:41 - org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-01-27 22:16:43 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-01-27 22:16:43 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 22:16:43 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 22:16:43 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 22:16:44 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:16:45 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:16:46 INFO  internal.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-01-27 22:16:46 INFO  dao.UserDAOTest:41 - org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.epam.hostel.model.user.User.ordersByUId, could not initialize proxy - no Session
+2018-01-27 22:17:10 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-01-27 22:17:11 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 22:17:11 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 22:17:11 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 22:17:12 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:17:13 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:17:14 INFO  internal.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-01-27 22:17:14 INFO  dao.UserDAOTest:41 - org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.epam.hostel.model.user.User.ordersByUId, could not initialize proxy - no Session
+2018-01-27 22:17:29 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-01-27 22:17:29 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 22:17:29 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 22:17:29 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 22:17:29 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:17:31 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:17:32 INFO  internal.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-01-27 22:17:32 INFO  dao.UserDAOTest:41 - org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.epam.hostel.model.user.User.ordersByUId, could not initialize proxy - no Session
+2018-01-27 22:19:40 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-01-27 22:19:41 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 22:19:41 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 22:19:41 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 22:19:41 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:19:42 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:19:43 INFO  internal.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-01-27 22:19:43 INFO  dao.UserDAOTest:41 - org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.epam.hostel.model.user.User.ordersByUId, could not initialize proxy - no Session
+2018-01-27 22:20:26 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-01-27 22:20:26 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 22:20:26 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 22:20:26 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 22:20:27 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:20:28 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:20:29 INFO  internal.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-01-27 22:20:29 INFO  dao.UserDAOTest:41 - org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.epam.hostel.model.user.User.ordersByUId, could not initialize proxy - no Session
+2018-01-27 22:20:56 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-01-27 22:20:57 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 22:20:57 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 22:20:57 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 22:20:57 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:20:58 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:20:59 INFO  internal.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-01-27 22:21:00 WARN  spi.SqlExceptionHelper:129 - SQL Error: 1064, SQLState: 42000
+2018-01-27 22:21:00 ERROR spi.SqlExceptionHelper:131 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Order ordersbyui0_ inner join Room room1_ on ordersbyui0_.Room_id=room1_.r_id wh' at line 1
+2018-01-27 22:21:00 INFO  dao.UserDAOTest:42 - org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-01-27 22:24:04 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-01-27 22:24:04 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 22:24:04 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 22:24:04 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 22:24:05 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:24:06 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:24:07 INFO  internal.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-01-27 22:24:07 WARN  spi.SqlExceptionHelper:129 - SQL Error: 1064, SQLState: 42000
+2018-01-27 22:24:07 ERROR spi.SqlExceptionHelper:131 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Order ordersbyui0_ inner join Room room1_ on ordersbyui0_.Room_id=room1_.r_id wh' at line 1
+2018-01-27 22:24:53 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-01-27 22:24:53 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 22:24:53 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 22:24:53 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 22:24:54 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:24:55 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:24:56 INFO  internal.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-01-27 22:24:56 WARN  spi.SqlExceptionHelper:129 - SQL Error: 1064, SQLState: 42000
+2018-01-27 22:24:56 ERROR spi.SqlExceptionHelper:131 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Order ordersbyui0_ inner join Room room1_ on ordersbyui0_.Room_id=room1_.r_id wh' at line 1
+2018-01-27 22:26:23 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-01-27 22:26:24 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 22:26:24 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 22:26:24 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 22:26:24 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:26:25 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:26:26 INFO  internal.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-01-27 22:26:26 INFO  dao.UserDAOTest:41 - org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.epam.hostel.model.user.User.ordersByUId, could not initialize proxy - no Session
+2018-01-27 22:28:05 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-01-27 22:28:06 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 22:28:06 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 22:28:06 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 22:28:07 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:28:08 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:28:09 INFO  internal.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-01-27 22:28:10 INFO  dao.UserDAOTest:41 - org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.epam.hostel.model.user.User.ordersByUId, could not initialize proxy - no Session
+2018-01-27 22:48:36 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-01-27 22:48:36 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 22:48:36 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 22:48:36 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 22:48:37 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:48:38 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:48:39 INFO  internal.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-01-27 22:48:40 WARN  spi.SqlExceptionHelper:129 - SQL Error: 1064, SQLState: 42000
+2018-01-27 22:48:40 ERROR spi.SqlExceptionHelper:131 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Order ordersbyui0_ inner join Room room1_ on ordersbyui0_.Room_id=room1_.r_id wh' at line 1
+2018-01-27 22:48:40 INFO  dao.UserDAOTest:47 - org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-01-27 22:49:03 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-01-27 22:49:04 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 22:49:04 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 22:49:04 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 22:49:05 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:49:06 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:49:07 INFO  internal.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-01-27 22:49:07 INFO  dao.UserDAOTest:42 - [User{id=1, role=CLIENT, name='Админ', surname='Админ', login='админ', password='e00cf25ad42683b3df678c61f42c6bda', userStatus=ADMITTED, ordersByUId=null}, User{id=3, role=ADMIN, name='Андрей', surname='Серов', login='серов_андрей', password='6119a0681a1627c0344fffea2da72a75', userStatus=ADMITTED, ordersByUId=null}, User{id=4, role=ADMIN, name='Виктор', surname='Соболев', login='соболев_витя', password='cd16acecf70af3e3911c833713207305', userStatus=ADMITTED, ordersByUId=null}, User{id=5, role=ADMIN, name='Дмитрий', surname='Аверин', login='дима_авер', password='3cceceab3b3b6f41884744765dd3be79', userStatus=ADMITTED, ordersByUId=null}, User{id=6, role=ADMIN, name='Ольга', surname='Токарева', login='оля_ток', password='7c00f306692e276bc35482e89175b4b1', userStatus=BANNED, ordersByUId=null}, User{id=7, role=ADMIN, name='Петр', surname='Демидов', login='петя_демид', password='89801244ff2207d89abc298f3993806b', userStatus=ADMITTED, ordersByUId=null}, User{id=8, role=ADMIN, name='Екатерина', surname='Власова', login='катя_влас', password='f4db29ab21127d21205b59795b6c5a9e', userStatus=ADMITTED, ordersByUId=null}, User{id=9, role=ADMIN, name='Игорь', surname='Вершаль', login='игорь', password='15e866420638783a2de5950c3de191ba', userStatus=ADMITTED, ordersByUId=null}]
+2018-01-27 22:50:16 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-01-27 22:50:16 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 22:50:16 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 22:50:16 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 22:50:17 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:50:18 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:50:19 INFO  internal.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-01-27 22:50:19 WARN  spi.SqlExceptionHelper:129 - SQL Error: 1064, SQLState: 42000
+2018-01-27 22:50:19 ERROR spi.SqlExceptionHelper:131 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Order ordersbyui0_ inner join Room room1_ on ordersbyui0_.Room_id=room1_.r_id wh' at line 1
+2018-01-27 22:50:19 INFO  dao.UserDAOTest:47 - org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-01-27 22:50:29 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-01-27 22:50:29 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 22:50:29 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 22:50:29 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 22:50:30 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:50:31 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:50:32 INFO  internal.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-01-27 22:50:32 WARN  spi.SqlExceptionHelper:129 - SQL Error: 1064, SQLState: 42000
+2018-01-27 22:50:32 ERROR spi.SqlExceptionHelper:131 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Order ordersbyui0_ inner join Room room1_ on ordersbyui0_.Room_id=room1_.r_id wh' at line 1
+2018-01-27 22:50:32 INFO  dao.UserDAOTest:47 - org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-01-27 22:50:32 WARN  spi.SqlExceptionHelper:129 - SQL Error: 1064, SQLState: 42000
+2018-01-27 22:50:32 ERROR spi.SqlExceptionHelper:131 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Order ordersbyui0_ inner join Room room1_ on ordersbyui0_.Room_id=room1_.r_id wh' at line 1
+2018-01-27 22:50:32 INFO  dao.UserDAOTest:52 - org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2018-01-27 22:55:33 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-01-27 22:55:33 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 22:55:33 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 22:55:33 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 22:55:34 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:56:25 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-01-27 22:56:26 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 22:56:26 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 22:56:26 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 22:56:26 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:56:41 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-01-27 22:56:41 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 22:56:41 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 22:56:41 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 22:56:41 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:57:35 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-01-27 22:57:36 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 22:57:36 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 22:57:36 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 22:57:36 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:57:37 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:57:38 INFO  impl.OrderValidatorTest:34 - invalid:2017-04-05 2017-04-01
+2018-01-27 22:57:38 INFO  impl.OrderValidatorTest:39 - Null invalid:null 2017-04-05
+2018-01-27 22:59:26 INFO  util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-01-27 22:59:27 INFO  hibernate.Version:45 - HHH000412: Hibernate Core {5.2.11.Final}
+2018-01-27 22:59:27 INFO  cfg.Environment:213 - HHH000206: hibernate.properties not found
+2018-01-27 22:59:27 INFO  common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-27 22:59:27 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:59:28 INFO  dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-27 22:59:29 INFO  impl.OrderValidatorTest:34 - invalid:2017-04-05 2017-04-01
+2018-01-27 22:59:29 INFO  impl.OrderValidatorTest:39 - Null invalid:null 2017-04-05
+2018-01-27 22:59:29 INFO  impl.RoomValidatorTest:33 - invalid:0	valid:1
+2018-01-27 22:59:29 INFO  impl.UserValidatorTest:52 - 
+Validate LogPassTest:
+
+Invalid input:
+User{id=null, role=null, name='name', surname='surname', login='valid_login', password='__Wrong__pass__', userStatus=null, ordersByUId=null}
+
+2018-01-27 22:59:29 INFO  impl.UserValidatorTest:61 - 
+Validate NameSurnameLoginTest:
+
+Invalid input:
+User{id=null, role=null, name='4rong_name', surname=' ', login='valid_login', password='password', userStatus=null, ordersByUId=null}
+
+2018-01-27 22:59:29 INFO  impl.UserValidatorTest:42 - 
+User validator test:
+Valid input:
+User{id=null, role=null, name='name', surname='surname', login='login_example', password='password', userStatus=null, ordersByUId=null}
+Invalid input:
+User{id=null, role=null, name='n_1', surname='s', login='123login', password='12345678901234567890123456789', userStatus=null, ordersByUId=null}
+

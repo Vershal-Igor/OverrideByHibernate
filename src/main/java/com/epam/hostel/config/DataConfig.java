@@ -1,3 +1,4 @@
+/*
 package com.epam.hostel.config;
 
 
@@ -11,6 +12,7 @@ import org.springframework.core.env.Environment;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
+import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 import javax.annotation.Resource;
@@ -19,7 +21,9 @@ import java.util.Properties;
 
 @Configuration
 @EnableTransactionManagement
-/*@ComponentScan("com.epam.hostel")*/
+*/
+/*@ComponentScan("com.epam.hostel")*//*
+
 @PropertySource("classpath:db/db.properties")
 @EnableJpaRepositories("com.epam.hostel")
 public class DataConfig {
@@ -53,8 +57,8 @@ public class DataConfig {
         LocalContainerEntityManagerFactoryBean entityManagerFactoryBean = new LocalContainerEntityManagerFactoryBean();
         entityManagerFactoryBean.setDataSource(dataSource());
         entityManagerFactoryBean.setPersistenceProviderClass(HibernatePersistenceProvider.class);
+        entityManagerFactoryBean.setJpaVendorAdapter(new HibernateJpaVendorAdapter());
         entityManagerFactoryBean.setPackagesToScan(env.getRequiredProperty(PROP_ENTITYMANAGER_PACKAGES_TO_SCAN));
-
         entityManagerFactoryBean.setJpaProperties(getHibernateProperties());
 
         return entityManagerFactoryBean;
@@ -78,3 +82,4 @@ public class DataConfig {
     }
 
 }
+*/
