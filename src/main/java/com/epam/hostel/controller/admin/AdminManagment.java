@@ -1,5 +1,6 @@
 package com.epam.hostel.controller.admin;
 
+import com.epam.hostel.dao.annotations.Profiling;
 import com.epam.hostel.dao.exception.DAOException;
 import com.epam.hostel.model.order.Order;
 import com.epam.hostel.model.room.Room;

@@ -1,5 +1,6 @@
 package com.epam.hostel.controller.admin.add;
 
+import com.epam.hostel.dao.annotations.Profiling;
 import com.epam.hostel.model.user.User;
 import com.epam.hostel.service.exception.ServiceException;
 import com.epam.hostel.service.impl.UserServiceImpl;

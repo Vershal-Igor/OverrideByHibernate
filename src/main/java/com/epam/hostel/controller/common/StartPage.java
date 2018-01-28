@@ -16,7 +16,6 @@ import org.springframework.web.servlet.ModelAndView;
  * This class provides start page.
  */
 @Controller
-
 public class StartPage {
 
     private static final String START_PAGE = "startPage";

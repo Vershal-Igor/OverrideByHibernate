@@ -2,6 +2,9 @@ package com.epam.hostel.dao.impl;
 
 
 import com.epam.hostel.dao.IUserDAO;
+import com.epam.hostel.dao.UserCrud;
+import com.epam.hostel.dao.annotations.DeprecatedClass;
+import com.epam.hostel.dao.annotations.Profiling;
 import com.epam.hostel.dao.exception.DAOException;
 import com.epam.hostel.model.user.Role;
 import com.epam.hostel.model.user.UserStatus;
@@ -23,7 +26,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.sql.*;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import javax.sql.DataSource;
@@ -34,7 +36,7 @@ import javax.sql.DataSource;
  * @author Vershal
  * @version 1.0
  */
-
+@DeprecatedClass(newImpl = UserDAOImpl.class)
 public class UserDAOImpl implements IUserDAO {
     private static Logger logger = Logger.getLogger(UserDAOImpl.class);
 
@@ -73,7 +75,6 @@ public class UserDAOImpl implements IUserDAO {
      * @return List<User>
      * @throws DAOException
      */
-
     @Transactional(readOnly = true, propagation = Propagation.REQUIRED, rollbackFor = {ObjectNotFoundException.class,
             ConstraintViolationException.class})
     @Override

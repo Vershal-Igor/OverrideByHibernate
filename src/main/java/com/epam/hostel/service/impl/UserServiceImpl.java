@@ -2,6 +2,7 @@ package com.epam.hostel.service.impl;
 
 
 import com.epam.hostel.dao.UserCrud;
+import com.epam.hostel.dao.annotations.Profiling;
 import com.epam.hostel.dao.impl.UserDAOImpl;
 import com.epam.hostel.dao.exception.DAOException;
 
@@ -32,7 +33,7 @@ import java.util.List;
  * @author Vershal
  * @version 1.0
  */
-@Transactional(readOnly = true, propagation = Propagation.REQUIRED, rollbackFor = {ObjectNotFoundException.class,
+@Transactional(propagation = Propagation.REQUIRED, rollbackFor = {ObjectNotFoundException.class,
         ConstraintViolationException.class})
 public class UserServiceImpl implements IUserService {
     public static Logger logger = Logger.getLogger(UserServiceImpl.class);

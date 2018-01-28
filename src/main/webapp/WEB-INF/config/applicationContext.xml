@@ -96,4 +96,7 @@
         <property name="orderDAOImpl" ref="orderDAOImpl"/>
     </bean>
 
+    <bean class="com.epam.hostel.dao.beanpostprocessors.ProfilingHandlerBeanPostProcessor"/>
+    <bean class="com.epam.hostel.dao.beanpostprocessors.DeprecationHandlerBeanFactoryPostProcessor"/>
+
 </beans>

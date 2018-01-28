@@ -1,11 +1,14 @@
 package com.epam.hostel.service.validator.impl;
 
+import com.epam.hostel.dao.IUserDAO;
+import com.epam.hostel.dao.exception.DAOException;
 import com.epam.hostel.model.order.Order;
 import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
@@ -39,6 +42,12 @@ public class OrderValidatorTest {
         logger.info("Null invalid:" + orderNullInvalid.getArrivalDate() + " " + orderNullInvalid.getDepartureDate());
         Assert.assertFalse("null invalid", validator.validate(orderNullInvalid));
 
+    }
+
+    @Test
+    public void testFindAll() throws DAOException {
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("classpath*:applicationContext.xml");
+        context.getBean(IUserDAO.class).findAll();
     }
 
 }
